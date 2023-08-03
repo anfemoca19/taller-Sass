@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+  align-items: center;
+}
+
+header{
+  h1 {
+    color: red;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+  }
+
+  li {
+    list-style: none;
+  }
+  li:hover {
+    color: white;
+  }
+}
